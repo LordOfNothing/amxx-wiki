@@ -1,0 +1,32 @@
+
+use if(condition)
+example :
+
+if(is_user_alive(id))
+{
+
+}
+
+for negative function :
+
+if(!is_user_alive(id))
+{
+
+}
+
+ more function list :
+ 
+is_user_alive( id ) 
+is_user_connected( id ) 
+is_user_bot( id ) 
+is_user_admin( id ) 
+
+u can use in cvar
+
+if(get_pcvar_num( pCvar ))
+{
+
+}
+
+
+I hope u will understand >D
