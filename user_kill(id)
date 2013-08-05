@@ -1,0 +1,17 @@
+You can use this function to kill a player
+
+Function : user_kill(id)
+
+Example :
+
+
+#include <amxmodx>
+
+public plugin_init()
+{
+register_plugin("dede","2","21")
+register_clcmd("say /killme","pKill")
+}
+public pKill(id){
+user_kill(id)
+}
