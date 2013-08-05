@@ -1,0 +1,16 @@
+Define ip client
+
+function :
+
+get_user_ip
+
+(necesary to make a variabile )
+
+example :
+
+public BlaBlaBla(id)
+{
+new ip [ 32 ];
+get_user_ip(id, ip, 32)
+client_print(id, print_chat, "IP-ul  tau este %s",ip)
+}
