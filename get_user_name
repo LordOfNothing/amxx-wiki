@@ -1,0 +1,27 @@
+First make a new variabile :
+
+new myname [ 32 ];
+
+Then put in function get_user_Name :
+
+get_user_name(id, myname, 31)
+
+Then use :
+
+client_print(id, print_chat, "my name is : %s ",myname)
+
+Example :
+
+#include <amxmodx>
+
+public plugin_init( )
+{
+register_plugin("my name","1.0","lordofnothing")
+register_clcmd("say /myname","pNAME")
+}
+public pNAME(id)
+{
+  new myname [ 32 ];
+  get_user_name(id, myname, 31)
+  client_print(id, print_chat, "my name is : %s ",myname)
+}
